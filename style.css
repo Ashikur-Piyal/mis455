@@ -5,5 +5,30 @@
 }
 header{
   background-color: rgb(42, 41, 41);
-  color: white;
+  color: rgb(153, 198, 222);
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: larger;
+}
+nav a:hover {
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  text-decoration-color: rgb(180, 180, 180);
 }
