@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(251, 240, 224);
+}
 header{
   background-color: rgb(42, 41, 41);
   color: rgb(153, 198, 222);
@@ -41,4 +44,30 @@ nav a:hover {
   text-decoration: underline;
   text-underline-offset: .5rem;
   text-decoration-color: rgb(180, 180, 180);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.container h1{
+  color: rgb(114, 114, 243);
+}
+.container p{
+  color: rgb(12, 16, 16);
+  margin-left: 40px;
+}
+.logo{
+  width: 100px;
+  margin-left: 140px;
+}
+.img{
+  width: 350px;
+  margin-left: -200px;
+  margin-top: 50px;
 }
