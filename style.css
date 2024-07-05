@@ -73,6 +73,8 @@ nav a:hover {
   margin-top: 50px;
 }
 
+/* product */
+
 .grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -94,7 +96,7 @@ nav a:hover {
   margin-left: 30px;
 }
 
-
+/* contact */
 
 .contact{
  
@@ -174,7 +176,7 @@ nav a:hover {
   border-radius: 2px;
 }
 
-
+/* font */
 .freehand-regular {
   font-family: "Freehand", cursive;
   font-weight: 400;
